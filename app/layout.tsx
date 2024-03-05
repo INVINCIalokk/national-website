@@ -27,7 +27,7 @@ export default function RootLayout({
             disableTransitionOnChange
           > */}
           <SecondaryNavBar/>
-          <div className="bg-gradient-to-br from-indigo-100 to-white h-hero">
+          <div>
             <MainNavBar/>
             {children}
           </div>

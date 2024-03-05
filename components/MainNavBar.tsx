@@ -7,7 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 export const MainNavBar = () => {
   return (
     <header className="flex sticky top-0 border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 bg-indigo-200 justify-between items-center px-16 py-3 w-full z-50">
-          <Link href="/" className="flex items-center text-3xl font-bold text-primary space-x-5">
+          <Link href="/" className="flex items-center text-xl sm:text-2xl font-bold text-primary space-x-5">
             <Avatar className="h-12 w-12">
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>NA</AvatarFallback>
